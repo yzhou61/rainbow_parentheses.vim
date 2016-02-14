@@ -5,10 +5,10 @@
 "==============================================================================
 
 let s:pairs = [
+	\ ['green',      'black'],
 	\ ['yellow',    'black'],
 	\ ['magenta',   'black'],
-	\ ['blue',      'black'],
-	\ ['green',     'black'],
+	\ ['blue',     'black'],
 	\ ['grey',      'black'],
 	\ ]
 let s:pairs = exists('g:rbpt_colorpairs') ? g:rbpt_colorpairs : s:pairs
